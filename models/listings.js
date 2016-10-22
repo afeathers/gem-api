@@ -16,7 +16,7 @@ module.exports.getAll = function() {
 
 module.exports.getById = function(id) {
 
-	var sql = 'SELECT * FROM users WHERE id = $1';
+	var sql = 'SELECT * FROM Listings WHERE id = $1';
 
 	return new Promise((resolve, reject) => {
 		query(DB, sql, [id], function(data) {

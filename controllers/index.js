@@ -1,6 +1,7 @@
 module.exports = {
 	locations: require('./locations'),
 	minerals: require('./minerals'),
-	user: require('./user'),
+	listings: require('./listings'),
+	user: require('./user')
 
 }
