@@ -1,5 +1,5 @@
 {
-  "name": "node-api",
+  "name": "gem-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -18,12 +18,9 @@
     "cors": "^2.7.1",
     "express": "^4.13.4",
     "express-session": "~1.13.0",
-    "morgan": "~1.0.0",
     "passport": "^0.3.2",
     "passport-local": "~1.0.0",
     "pg": "^4.4.4",
-    "react": "^0.14.8",
-    "react-dom": "^0.14.7",
     "redis": "^2.6.0-1",
     "sequelize": "^3.19.1",
     "uuid": "^2.0.2"
