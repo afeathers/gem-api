@@ -6,7 +6,7 @@ module.exports = {
 		postgres: {
 			protocol: 'postgres', 
 			username: 'root', 
-			password: 'dhai492', 
+			password: '', 
 			host: 'localhost', 
 			port: 5432, 
 			db: 'gemfinder'
