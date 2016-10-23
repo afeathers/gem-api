@@ -16,7 +16,7 @@ CREATE TABLE Minerals(
 CREATE TABLE Listings(
 		id serial PRIMARY KEY
 		,title varchar(225)
-		,price int(30)
+		,price INT
 		,image varchar(225)
 		,content varchar(3000)
 		,link varchar(225)
