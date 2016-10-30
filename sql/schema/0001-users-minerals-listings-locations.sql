@@ -27,7 +27,8 @@ CREATE TABLE Locations(
 		id serial PRIMARY KEY
 		,title varchar(225)
 		,minerals varchar(225)[]
-		,content varchar(3000)
-		,link varchar(225)
-		,active boolean
+		,address varchar(225)
+		,state varchar(50)
+		,latitude numeric(40)
+		,longitude numeric(40)
 );
