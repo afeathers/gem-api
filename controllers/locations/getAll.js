@@ -5,7 +5,7 @@ var Locations = require('../../models/locations');
 
 module.exports = function(req, res, next) {
 
-	Locations.getAll
+	Locations.getAll()
 		.then((locations) => {
 			console.log(locations);
 			Responder.respond(res, locations);
