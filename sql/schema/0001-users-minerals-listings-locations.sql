@@ -29,6 +29,6 @@ CREATE TABLE Locations(
 		,minerals varchar(225)
 		,address varchar(225)
 		,state varchar(50)
-		,latitude numeric(40)
-		,longitude numeric(40)
+		,latitude numeric(40,40)
+		,longitude numeric(40,40)
 );
