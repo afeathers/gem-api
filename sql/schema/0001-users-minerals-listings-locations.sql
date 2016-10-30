@@ -26,7 +26,7 @@ CREATE TABLE Listings(
 CREATE TABLE Locations(
 		id serial PRIMARY KEY
 		,title varchar(225)
-		,minerals varchar(225)[]
+		,minerals varchar(225)
 		,address varchar(225)
 		,state varchar(50)
 		,latitude numeric(40)
