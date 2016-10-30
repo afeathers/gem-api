@@ -7,9 +7,9 @@ CREATE TABLE users(
 
 CREATE TABLE Minerals(
 	 id serial PRIMARY KEY 
-	,name    VARCHAR(225)
-	,extract VARCHAR(3000)
-	,image   VARCHAR(225)
+	,name    text
+	,extract text
+	,image   text
 );
 
 
@@ -25,10 +25,10 @@ CREATE TABLE Listings(
 
 CREATE TABLE Locations(
 		id serial PRIMARY KEY
-		,title varchar(225)
-		,minerals varchar(225)
-		,address varchar(225)
-		,state varchar(50)
-		,latitude numeric(40,40)
-		,longitude numeric(40,40)
+		,title text
+		,minerals text
+		,address text
+		,state text
+		,latitude numeric
+		,longitude numeric
 );
