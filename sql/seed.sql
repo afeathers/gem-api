@@ -1384,6 +1384,6 @@ INSERT INTO Locations(title,minerals,address,state,latitude,longitude) VALUES ('
 INSERT INTO Locations(title,minerals,address,state,latitude,longitude) VALUES ('Great Salt Plains National Wildlife Refuge','selenite','71189 Harper Road, Jet, OK 73749','Oklahoma',36.666142,-98.181179);
 INSERT INTO Locations(title,minerals,address,state,latitude,longitude) VALUES ('Double Eagle Mine','Oregon Sunstone','n/a','Oregon',42.42758,-119.49248);
 INSERT INTO Locations(title,minerals,address,state,latitude,longitude) VALUES ('Richardson''s Rock Ranch','Agate, Thundereggs','6683 Hay Creek Rd, Madras, OR 97741','Oregon',44.732367,-120.979045);
-INSERT INTO Locations(title,minerals,address,state,latitude,longitude) VALUES ('Spectrum Sunstone Mines','Oregon Sunstone','n/a','Oregon',42 43.941,-119 52.007);
+INSERT INTO Locations(title,minerals,address,state,latitude,longitude) VALUES ('Spectrum Sunstone Mines','Oregon Sunstone','n/a','Oregon',42.43941,-119.52007);
 INSERT INTO Locations(title,minerals,address,state,latitude,longitude) VALUES ('Big Thunder Gold Mine','Gold','604 Blair St, Keystone, SD 57751','South Dakota',43.895034,-103.417123);
 INSERT INTO Locations(title,minerals,address,state,latitude,longitude) VALUES ('Stillwell Ranch','agate','48421 FM 2627 Hwy, Alpine, TX 79830','Texas',29.584125,-102.988759);
