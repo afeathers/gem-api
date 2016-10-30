@@ -2,7 +2,7 @@ var Controller = require('../controllers');
 
 module.exports = function(app) {
 
-    app.get('/locations/:location_id', 
+    app.get('/locations/', 
         Controller.locations.getAll
     );
 
