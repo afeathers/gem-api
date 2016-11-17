@@ -5,14 +5,14 @@ module.exports = {
 	database: {
 		postgres: {
 			protocol: 'postgres', 
-			username: 'root', 
-			password: 'funny', 
-			host: 'localhost', 
+			username: 'postgres', 
+			password: '', 
+			host: 'postgres', 
 			port: 5432, 
 			db: 'gemfinder'
 		},
 		redis: {
-			host: '127.0.0.1',
+			host: 'redis',
 			port: 6379
 		}
 	}

@@ -1,0 +1,21 @@
+version: '2'
+services:
+    gemapi: 
+        build: .
+        ports:
+        - "8080:8080"
+        volumes:
+        - .:/code
+        depends_on:
+        - redis
+        - postgres
+        environment:
+        - DATABASE_URL=postgres://db:5432
+    redis:
+        image: redis
+    postgres: 
+        build: ./db
+        ports: 
+        - "5432:5432"
+        extra_hosts:
+        - "somehost:172.17.42.1/16"
